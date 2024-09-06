@@ -8,7 +8,7 @@ import pymysql
 
 
 class PyMySQLTestCase(unittest.TestCase):
-    # You can specify your test environment creating a file named
+    # You can specify your test environment create a file named
     #  "databases.json" or editing the `databases` variable below.
     fname = os.path.join(os.path.dirname(__file__), "databases.json")
     if os.path.exists(fname):
